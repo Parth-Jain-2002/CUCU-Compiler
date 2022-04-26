@@ -1,0 +1,209 @@
+TYPE : int 
+ID: i
+ASSIGN : =
+NUM : 2
+PLUS : +
+NUM : 3
+SEMI : ;
+TYPE : char *
+ID: s
+ASSIGN : =
+STRING  : "parth"
+SEMI : ;
+TYPE : int 
+ID: main
+OPENBRAC : (
+TYPE : int 
+ID: a
+COMMA : ,
+TYPE : int 
+ID: b
+COMMA : ,
+TYPE : char*
+ID: s
+COMMA : ,
+TYPE : int 
+ID: c
+COMMA : ,
+TYPE : char *
+ID: t
+CLOSEBRAC : )
+SEMI : ;
+Line number 8: Lexical error, there is an undefined token in input: @
+Line number 9: Lexical error, there is an undefined token in input: %
+TYPE : int 
+ID: main
+OPENBRAC : (
+TYPE : int 
+ID: argc
+COMMA : ,
+TYPE : char **
+ID: agrv
+CLOSEBRAC : )
+OPENBRAC : {
+TYPE : int 
+ID: i
+ASSIGN : =
+NUM : 2
+PLUS : +
+NUM : 3
+SEMI : ;
+TYPE : char *
+ID: s
+ASSIGN : =
+STRING  : "suman"
+SEMI : ;
+ID: func
+OPENBRAC : (
+ID: i
+PLUS : +
+NUM : 2
+COMMA : ,
+ID: i
+EQUAL : ==
+NUM : 2
+PLUS : +
+NUM : 2
+COMMA : ,
+ID: s
+OPENBRAC : [
+ID: i
+PLUS : +
+NUM : 2
+CLOSEBRAC : ]
+CLOSEBRAC : )
+SEMI : ;
+ID: func
+OPENBRAC : (
+CLOSEBRAC : )
+SEMI : ;
+RETURN : return
+ID: i
+BITOPERATOR : &
+NUM : 34
+PLUS : +
+NUM : 2
+SEMI : ;
+CLOSEBRAC : }
+TYPE : int 
+ID: main
+OPENBRAC : (
+TYPE : int 
+ID: a
+COMMA : ,
+TYPE : int 
+ID: b
+COMMA : ,
+TYPE : char*
+ID: s
+COMMA : ,
+TYPE : int 
+ID: c
+COMMA : ,
+TYPE : char *
+ID: t
+CLOSEBRAC : )
+OPENBRAC : {
+TYPE : int 
+ID: a
+SEMI : ;
+TYPE : char *
+ID: s
+SEMI : ;
+TYPE : int 
+ID: b
+ASSIGN : =
+NUM : 2
+PLUS : +
+NUM : 3
+MUL : *
+NUM : 5
+PLUS : +
+NUM : 5
+DIV : /
+NUM : 3
+PLUS : +
+NUM : 3
+SUB : -
+NUM : 5
+SEMI : ;
+TYPE : char *
+ID: t
+ASSIGN : =
+STRING  : "parth"
+SEMI : ;
+ID: b
+ASSIGN : =
+NUM : 2
+PLUS : +
+NUM : 3
+MUL : *
+NUM : 5
+PLUS : +
+NUM : 5
+DIV : /
+NUM : 3
+PLUS : +
+NUM : 3
+SUB : -
+NUM : 5
+SEMI : ;
+ID: t
+ASSIGN : =
+STRING  : "parth"
+SEMI : ;
+ID: s
+OPENBRAC : [
+ID: i
+CLOSEBRAC : ]
+ASSIGN : =
+NUM : 4
+PLUS : +
+NUM : 3
+MUL : *
+NUM : 4
+SEMI : ;
+ID: lt
+OPENBRAC : (
+ID: a
+COMMA : ,
+ID: b
+COMMA : ,
+ID: c
+COMMA : ,
+ID: d
+CLOSEBRAC : )
+SEMI : ;
+CONTROL : if
+OPENBRAC : (
+ID: a
+EQUAL : ==
+NUM : 0
+CLOSEBRAC : )
+OPENBRAC : {
+ID: a
+ASSIGN : =
+NUM : 1
+SEMI : ;
+CLOSEBRAC : }
+CONTROL : else
+OPENBRAC : {
+ID: a
+ASSIGN : =
+NUM : 0
+SEMI : ;
+CLOSEBRAC : }
+CONTROL : while
+OPENBRAC : (
+ID: abc
+CLOSEBRAC : )
+OPENBRAC : {
+ID: y
+ASSIGN : =
+NUM : 0
+SEMI : ;
+CLOSEBRAC : }
+RETURN : return
+NUM : 0
+SEMI : ;
+CLOSEBRAC : }

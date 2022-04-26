@@ -1,0 +1,62 @@
+Aim: Learning to write a compiler for a simple language
+
+The following folder contains the below-mentioned files:-
+1. cucu.l
+2. cucu.y
+3. Sample1.cu
+4. Sample2.cu
+5. Lexer.txt
+6. Parser.txt
+7. cucu.tab.c
+8. cucu.tab.h
+9. lex.yy.c
+10. cucu
+
+To properly execute the files, use command:-
+1. flex cucu.l
+2. bison -d cucu.y
+3. gcc lex.yy.c cucu.tab.c -o cucu -lfl
+
+Also, there can be an issue of file endings converted from Unix to Windows, so for that, run command:
+1. dos2unix {required_file}  ( For e.g: dos2unix Sample1.cu)
+
+The compiler supports:
+-> The function supports variable declarations, function declarations, and function definitions.
+-> Variable declaration can be:-
+   int a;
+   int a=5;
+   char *s;
+   char *s="parth";
+-> Function declaration can be:-
+   int main(int a,int b, char*s, int c,char *t);
+-> Function definitions can be:-
+   int main(int a,int b, char*s, int c,char *t){
+       int a;
+       char *s;
+       int b = 2 + 3 * 5 + 5 / 3 + 3 - 5;
+       char *t = "parth";
+       b = 2 + 3 * 5 + 5 / 3 + 3 - 5;
+       t = "parth";
+       s[i] = 4 + 3 * 4;
+       lt(a,b,c,d);
+       if(a==0){
+           a=1;
+       }
+       else{
+           a=0;
+       }
+       while(a!=0){
+           b=0;
+           a=a-1;
+       return 0;
+   }
+-> The compiler follows the precedence order and also the associativity rules.
+-> The compiler supports all the operations mentioned in the assignment
+-> It also ignores the single and multi-line comments.
+-> The lexer shows all the lexical errors in the Lexer.txt while the parser will break down on the 
+first error it encounters in the grammar rules. It will display the first time it breaks in the Parser.txt
+-> In Lexer.txt: error will be of the form: "Line number 8: Lexical error, there is an undefined token in input: @"
+-> In Parser.txt: error will be of the form: "error: syntax error"
+
+In Sample1.cu, I have included two lexical errors and in Sample2.cu, I have included one syntax error at the end of the program.
+The compiler will display lexical errors in Lexer.txt and the first syntax error at which it breaks in the Parser.txt

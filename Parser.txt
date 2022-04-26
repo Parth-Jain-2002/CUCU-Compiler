@@ -1,0 +1,60 @@
+const-2 const-3 + = var-i
+global variable : i ,type : int 
+
+"parth" = var-s
+global variable : s ,type : char *
+
+function-parameter : a 
+function-parameter : b 
+function-parameter : s 
+function-parameter : c 
+function-parameter : t 
+function-name : main , type: int 
+
+function-parameter : argc 
+function-parameter : agrv 
+const-2 const-3 + = var-i
+local variable : i , type: int 
+"suman" = var-s
+local variable : s , type: char *
+var-i const-2 + : function-argument 
+var-i const-2 const-2 + == : function-argument 
+var-s var-i const-2 + [] : function-argument 
+FUNCTION ARGUMENT END
+function-name : func 
+FUNCTION ARGUMENT END
+function-name : func 
+var-i const-34 const-2 + & return 
+FUNCTION-BODY END
+function-name : main , type: int 
+
+function-parameter : a 
+function-parameter : b 
+function-parameter : s 
+function-parameter : c 
+function-parameter : t 
+local variable : a , type: int 
+local variable : s , type: char *
+const-2 const-3 const-5 * + const-5 const-3 / + const-3 + const-5 - = var-b
+local variable : b , type: int 
+"parth" = var-t
+local variable : t , type: char *
+const-2 const-3 const-5 * + const-5 const-3 / + const-3 + const-5 - = var-b
+"parth" = var-t
+var-i const-4 const-3 const-4 * + = [] var-s
+var-a : function-argument 
+var-b : function-argument 
+var-c : function-argument 
+var-d : function-argument 
+FUNCTION ARGUMENT END
+function-name : lt 
+var-a const-0 == const-1 = var-a
+const-0 = var-a
+ELSE-COND 
+IF-COND 
+var-abc const-0 = var-y
+WHILE-COND 
+const-0 return 
+FUNCTION-BODY END
+function-name : main , type: int 
+
