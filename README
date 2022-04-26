@@ -3,14 +3,12 @@ Aim: Learning to write a compiler for a simple language
 The following folder contains the below-mentioned files:-
 1. cucu.l
 2. cucu.y
-3. Sample1.cu
-4. Sample2.cu
-5. Lexer.txt
-6. Parser.txt
-7. cucu.tab.c
-8. cucu.tab.h
-9. lex.yy.c
-10. cucu
+3. Lexer.txt
+4. Parser.txt
+5. cucu.tab.c
+6. cucu.tab.h
+7. lex.yy.c
+8. cucu
 
 To properly execute the files, use command:-
 1. flex cucu.l
@@ -58,5 +56,3 @@ first error it encounters in the grammar rules. It will display the first time i
 -> In Lexer.txt: error will be of the form: "Line number 8: Lexical error, there is an undefined token in input: @"
 -> In Parser.txt: error will be of the form: "error: syntax error"
 
-In Sample1.cu, I have included two lexical errors and in Sample2.cu, I have included one syntax error at the end of the program.
-The compiler will display lexical errors in Lexer.txt and the first syntax error at which it breaks in the Parser.txt
